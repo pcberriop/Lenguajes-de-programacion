@@ -1,5 +1,5 @@
 
-//Operadores
+/*Operadores*/
 OP_SUM	+
 OP_RES	-
 OP_MULT	*
@@ -14,10 +14,10 @@ OP_ASIG	=
 OP_COMP	==
 OP_DIFF	!=
 
-//
+/* Numeros especificos */
 NUM_e	e
 NUM_pi	Pi
-//
+/* 
 BRACE_L	\{
 BRACE_R	\}
 PARENT_L	(
@@ -28,6 +28,15 @@ INT [0-9]
 FLOAT {INT}+(\.{INT}+)
 CHAR [a-zA-Z]
 STRING {CHAR}*
+
+DELIM [ \t\n]
+WS {DELIM}+
+
+FUN fun
+
+/* Redes Neuronales */
+WEIGHT w{[\[][\]]}+ /* Arreglos de pesos */
+
 
 %%
 
