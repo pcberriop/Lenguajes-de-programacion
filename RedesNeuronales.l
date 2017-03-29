@@ -24,7 +24,8 @@ PARENT_L	(
 PARENT_R	)
 
 //
-INT [0-9]
+NUM [0-9]
+INT {NUM}*
 FLOAT {INT}+(\.{INT}+)
 CHAR [a-zA-Z]
 STRING {CHAR}*
