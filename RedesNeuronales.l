@@ -33,9 +33,14 @@ DELIM [ \t\n]
 WS {DELIM}+
 
 FUN fun
+VOID void
+
 
 /* Redes Neuronales */
-WEIGHT w{[\[][\]]}+ /* Arreglos de pesos */
+WEIGHT w{[\[]INT[\]]}+ /* Arreglos de pesos */
+LAYER layer  /*Capa */
+INPUT input{[\[]INT[\]]}+ /*Areglo de entradas */
+OUTPUT  output{[\[]INT[\]]}+ /*Arreglo de salidas*/
 
 
 %%
