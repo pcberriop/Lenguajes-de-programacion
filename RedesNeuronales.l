@@ -22,8 +22,6 @@ BRACE_L	\{
 BRACE_R	\}
 PARENT_L	(
 PARENT_R	)
-SQRBRACE_L  [
-SQRBRACE_R  ] 
 
 //
 NUM [0-9]
