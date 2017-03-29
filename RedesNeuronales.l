@@ -1,4 +1,6 @@
 
+%%
+
 /*Operadores*/
 OP_SUM	+
 OP_RES	-
@@ -49,7 +51,3 @@ OUTPUT  output{[\[]INT[\]]}+ /*Arreglo de salidas*/
 {int}	{ECHO.}
 digits -> \.int
 {float} -> int\.digits
-
-
-%%
-
